@@ -1,9 +1,7 @@
 import 'package:ehaberuygulamasi/data/news_service.dart';
 import 'package:ehaberuygulamasi/models/article.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class anasayfa extends StatefulWidget {
   const anasayfa({super.key});
@@ -47,7 +45,7 @@ class _anasayfaState extends State<anasayfa> {
                         subtitle: Text("Yazar"),
                       ),
                       const Padding(
-                        padding: const EdgeInsets.all(16.0),
+                        padding: EdgeInsets.all(16.0),
                         child: Text(
                             "AçıklamaAçıklamaAçıklamaAçıklamaAçıklamaAçıklama"),
                       ),
